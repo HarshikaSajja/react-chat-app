@@ -1,0 +1,7 @@
+.side-panel-container {
+    width: 20%;
+    height: 100vh;
+    background-color: #CE7D0A;
+    overflow-x: hidden;
+    position: fixed;
+}

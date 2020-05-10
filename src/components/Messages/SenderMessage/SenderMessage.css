@@ -1,0 +1,37 @@
+.sender-message-container {
+    padding: 0;
+    margin:0;
+    margin-bottom: 10px;
+}
+
+.sender-avatar {
+    display: inline;
+    padding: 0;
+    margin: 0;  
+}
+
+.sender-name {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 14px;
+    font-weight: 630;
+    position: absolute;
+    padding-left: 10px;
+}
+
+.sender-message {
+    margin: 0;
+    z-index: 900;
+    margin-left: 10px;
+    display: inline;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.uploaded-image {
+    object-fit: cover;
+    width: auto;
+    max-height: 300px;
+    margin-top: 0;
+}

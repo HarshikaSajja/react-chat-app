@@ -1,0 +1,19 @@
+.login-img {
+    display: block;
+    justify-content: center;
+    margin:0 auto;
+    margin-top: 10%;
+}
+
+.login-input {
+    font-family: FontAwesome;
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 10px;
+    height: 35px;
+    width: 100%;
+    padding-left: 10px;
+    border-radius: 2px;
+    border: 1px solid lightgray;
+    font-size: 15px;
+}

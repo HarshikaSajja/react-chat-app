@@ -1,0 +1,83 @@
+.meta-panel-container {
+    background-color: rgba(204, 204, 204, 0.7);
+    height: 100vh;
+    width: 25%;
+    padding: 10px 10px 10px 0px;
+}
+
+.meta-box-container {
+    background-color: white;
+    height: auto;
+    width: auto;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.meta-box {
+    border: 1px #ccc solid;
+    border-radius: 2px;
+    height: auto;
+    width: inherit;
+    padding: 5px;
+}
+
+.meta-box h4 {
+    margin: 0;
+    color: #585858;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.meta-title-collapse,
+.meta-tile-expand {
+    height: 100%;
+    width: inherit;
+}
+
+.meta-title-collapse p {
+    display: inline;
+    color: grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.meta-title-expand p {
+    display: inline;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.meta-title-collapse::before {
+    content: '\f0da';
+    font-family: FontAwesome;
+    color: #585858;
+    margin-left: 10px;
+    padding-right: 10px;
+}
+
+.meta-title-expand::before {
+    content: '\f0d7';
+    font-family: FontAwesome;
+    color: black;
+    margin-left: 10px;
+    padding-right: 10px;
+}
+
+.meta-title-collapse p:hover,
+.meta-title-expand p:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.meta-title-collapse span,
+.meta-title-expand span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    margin-left: 32px;
+    margin-top: 5px;
+}

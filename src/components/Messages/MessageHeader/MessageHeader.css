@@ -1,0 +1,45 @@
+.message-header-container {
+    background-color: white;
+    padding: 10px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    position: relative;
+    height: 68px;
+}
+
+.channel-header,
+.channel-header-noIcon {
+    margin: 0;
+    display: inline-block;
+    color: black;
+}
+
+.channel-header:after {
+    content: '\f006';
+    position: absolute;
+    font-family: FontAwesome;
+    background-color: #FFF;
+    margin-left: 5px;
+    margin-top: 4px;
+}
+
+.message-header-container p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    font-size: 15px;
+    color: rgba(91, 88, 88, 0.7);
+    display: inline;
+}
+
+.message-search {
+    font-family: FontAwesome;
+    height: 35px;
+    width: 25%;
+    border-radius: 2px;
+    border: 1px solid lightgray;
+    font-size: 15px;
+    padding-left: 8px;
+    float: right;
+    margin-right: 20px;
+    margin-top: -20px;
+}

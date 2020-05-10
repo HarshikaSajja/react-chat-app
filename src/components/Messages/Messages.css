@@ -1,0 +1,48 @@
+.messages-container {
+    background-color: rgba(204, 204, 204, 0.7);
+    height: 100vh;
+    width: 80%;
+    margin-left: 20%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.messages {
+    height: 70.5%;
+    width: 100%;
+    margin-top: 7px;
+    padding: 10px;
+    position: relative;
+    overflow-y: scroll;
+    background-color: white;
+}
+
+  @-moz-document url-prefix() {
+    .scrollbar {
+        overflow: auto;
+        width: 0.5em !important;
+        scroll-behavior: smooth !important;
+        background-color: darkgrey !important;
+        outline: 1px solid slategrey !important;
+        border-radius: 10px !important;
+    }
+}
+
+.messages::-webkit-scrollbar {
+    width: 0.5em !important;
+    scroll-behavior: smooth !important;
+}
+
+.messages::-webkit-scrollbar-thumb {
+    background-color: darkgrey !important;
+    outline: 1px solid slategrey !important;
+    border-radius: 10px !important;
+}
+
+.empty-channel-alert {
+    margin: 0px;
+    padding: 0px;
+    font-size: 11px;
+    color: grey;
+    text-align: center;
+}

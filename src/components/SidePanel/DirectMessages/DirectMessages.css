@@ -1,0 +1,45 @@
+.dm-container {
+    color: #ccc;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.dm-title {
+    display: inline;
+    color: white;
+    font-weight: bold;
+}
+
+.chat-list-names {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    width: 90%;
+    height: 32px;
+    cursor: pointer;
+}
+
+.chat-list-names:hover {
+    background-color: rgba(78, 4, 97, 0.2);
+    margin-left: 2px;
+    border-radius: 2px;
+    padding: 2px;
+}
+
+.chat-list-names:after {
+    font-family: FontAwesome;
+    font-size: 13px;
+    margin-top: 7px;
+    text-align: right;
+    content: '\f111';
+    color: var(--status-color);
+    float: right;
+    margin-right: 5px;
+}
+
+.active-channel {
+    background-color: rgba(78, 4, 97, 0.2);
+    margin-left: 2px;
+    border-radius: 2px;
+    padding: 2px;
+}

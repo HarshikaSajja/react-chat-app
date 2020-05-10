@@ -1,0 +1,36 @@
+.user-panel-container {
+    margin: 30px 20px;
+}
+
+.user-panel-container h3 {
+    display: block;
+    color: whitesmoke;
+    text-align: left;
+}
+
+  option {
+      color: black;
+      background-color: white;
+      width: auto;
+  }
+  
+  select:active, select:hover {
+    outline: none
+  }
+  
+  select {
+    position: absolute;
+    border-radius: 15px;
+    width: auto;
+    height: 40px;
+    padding-left: 5px; 
+    font-weight: bolder;
+    background-color: #CE7D0A;
+    color: white;
+  }
+.avatar {
+  display: inline;
+  padding: 0;
+  margin: 0;
+  margin-right: 10px;
+}
